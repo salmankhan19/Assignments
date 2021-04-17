@@ -1,0 +1,112 @@
+
+header{
+	background-image: url("1.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	padding: 50px 200px 100px 200px;
+    height: 90vh;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	height: 580px;
+	width: 700px;
+	margin: 100px auto;
+
+}
+
+.box1,.box2{
+	background-image: url("2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 580px;
+	width: 325px;
+	border-radius: 20px;
+	box-shadow: 6px 0px 31px 0px #8080809e;
+}
+#box-1{
+    margin-right: 50px;
+}
+.logo{
+	display: flex;
+    margin-left: 25px;
+    margin-top: 10px;
+    height: 31px;
+    width: 38px;
+
+}
+h1{
+	padding-left: 25px;
+
+}
+.item{
+	background-color: #c7ccd1;
+	border-radius: 20px;
+	height: 350px;
+	width: 245px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#s1{
+	
+    margin-top: 80px;
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+}
+.detail{
+	padding-left: 20px;
+}
+#cart-items{
+	height: 120px;
+	width: 313px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+}
+.pic{
+	height: 100px;
+    width: 100px;
+    border-radius: 48px;
+    background-color: #ededed;
+    margin-right: 10;
+    text-align: center;
+}
+.detail-item{
+	display: flex;
+	flex-direction: column;
+	height: 120px;
+	font-size: 20px;
+}
+p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: 900;
+}
+#img1{
+	height: 85px;
+    width: 104px;
+    margin-top: 7px;
+}
+.price{
+	
+	font-size: 25px;
+	font-family: monospace;
+}
+.last{
+	display: flex;
+	flex-direction: row;
+}
+.count{
+	margin-left: 25px;
+	margin-right: 25px;
+	font-weight: 200;
+}
+.btn{
+	border-radius: 50%;
+	width: 27px;
+    height: 30px;
+    border: none;
+}
